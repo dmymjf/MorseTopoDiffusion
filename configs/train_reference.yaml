@@ -1,0 +1,16 @@
+seed: 42
+model:
+  channels: 48
+  cond_dim: 96
+  event_dim: 24
+training:
+  steps: 10000
+  lr: 0.0002
+  weight_decay: 0.0001
+  grad_clip: 1.0
+forward:
+  beta: 1.0
+  max_events: 100000
+sampling:
+  max_events: 3000
+  temperature: 1.0

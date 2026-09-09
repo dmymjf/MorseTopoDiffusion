@@ -1,0 +1,8 @@
+seed: 42
+clock:
+  beta: 1.0
+operator:
+  prefer_2d_collapse: 1.5
+macro:
+  enabled: true
+  macro_size: 16

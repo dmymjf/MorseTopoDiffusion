@@ -1,0 +1,9 @@
+# Reverse architecture intentionally not frozen before the real-data operator audit.
+state_encoding: cubical_4_channel
+condition:
+  class_labels: 8
+heads:
+  event_type: [R+, H+, C+]
+  support: candidate_event_scorer
+training:
+  objective: TBD_after_baseline_audit
